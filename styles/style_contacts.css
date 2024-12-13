@@ -344,6 +344,74 @@ p {
   margin-top: 5px;
 }
 
+/* GET IN TOUCH */
+.get-in-touch {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  margin: 20px;
+}
+
+.form-container {
+  flex: 1;
+}
+
+.form-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #000;
+  font-weight: 790;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.input-group input {
+  flex: 1;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkred;
+}
+
+.map-container {
+  flex: 1;
+  max-width: 50%;
+  margin-left: 10px;
+}
+
+iframe {
+  width: 100%;
+  border: none;
+}
+
 /* FOOTER */
 footer {
   padding-top: 80px;
