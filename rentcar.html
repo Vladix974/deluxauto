@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Delux Auto | Rent Car
     </title>
+    <link rel="stylesheet" href="styles/style_rentcars.css">
     <link rel="stylesheet" href="styles/style_basic.css" />
     <link
       rel="stylesheet"
@@ -56,7 +57,7 @@
 
           <nav class="navigation">
             <ul>
-              <li><a href="#">Home</a></li>
+              <li><a href="index.html">Home</a></li>
               <li><a href="about.html">About</a></li>
               <li><a href="gallery.html">Our Gallery</a></li>
               <li><a href="contacts.html">Contact</a></li>
@@ -80,6 +81,28 @@
         </div>
       </section>
     </header>
+
+    <section class="car-search-section">
+      <h2>Search Cars</h2>
+      <div class="search-container">
+          <select class="dropdown">
+              <option>Car Make</option>
+              <!-- Додайте опції для марок авто тут -->
+          </select>
+          <select class="dropdown">
+              <option>Car Type</option>
+              <!-- Додайте опції для типу авто тут -->
+          </select>
+          <select class="dropdown">
+              <option>All Models</option>
+              <!-- Додайте опції для моделей авто тут -->
+          </select>
+          <button class="search-button">Search</button>
+      </div>
+  </section>
+
+
+
     <footer>
       <div class="container">
         <div class="footer-wrapper">
@@ -112,6 +135,8 @@
           </div>
         </div>
       </div>
+      
+  
     </footer>
   </body>
 </html>
