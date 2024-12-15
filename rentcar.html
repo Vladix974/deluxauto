@@ -101,8 +101,64 @@
       </div>
   </section>
 
+  <section class="catalog-menu">
+
+<div class="menu-container">
+  <!-- Showing X of Y Cars -->
+  <span class="item-count">Showing 4 Of 20 Cars</span>
+
+  <!-- Grid and List View Icons -->
+  <div class="view-toggle">
+    <button id="gridView" class="toggle-button active">
+    <i class="fas fa-th"></i>
+    </button>
+    <button id="listView" class="toggle-button">
+     <i class="fas fa-list"></i>
+    </button>
+  </div>
+
+  <!-- Sort Dropdown -->
+  <div class="sort-container">
+    <label for="sort">Sort By:</label>
+    <select id="sort" name="sort">
+      <option value="default">Default</option>
+      <option value="price">Price</option>
+      <option value="popularity">Popularity</option>
+      <option value="rating">Rating</option>
+    </select>
+  </div>
+</div>
+  </section>
+  <section class="feautured-cars">
+    <div class="textGallery">
+      <h2>Our popular cars</h2>
+      <h3>Feautured Cars</h3>
+    </div>
+    <div class="carCards">
+
+      <div class="car-card">
+        <div class="car-image">
+            <img src="img/Infiniti Fx35.jpg">
+            <div class="price">$100<span>/Day</span></div>
+        </div>
+        <div class="car-details">
+            <h3>Infinity  Q50</h3>
+            <ul class="car-info">
+                <li><i class="fa fa-car"></i>2023</li>
+                <li><i class="fas fa-user-friends"></i>2 People</li>
+                <li><i class="fas fa-suitcase-rolling"></i>1 Luggage</li>
+                <li><i class="fa fa-gear"></i>Automatic</li>
+                <li><i class="fas fa-gas-pump"></i>Petrol</li>
+                <li><i class="fa fa-road"></i>7.4 Kmpl</li>
+            </ul>
+            <button class="rent-button">Rent Car</button>
+        </div>
+    </div>
+    </div>
+    </section>
 
 
+    
     <footer>
       <div class="container">
         <div class="footer-wrapper">
@@ -136,7 +192,7 @@
         </div>
       </div>
       
-  
     </footer>
+    <script src="scripts/script_rentcar.js"> </script>
   </body>
 </html>
